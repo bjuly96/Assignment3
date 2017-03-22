@@ -1,0 +1,103 @@
+* {
+    background-color: wheat;
+}
+@media only screen and (max-width: 800px) {
+    body {
+        background-color: lightblue;
+    }
+}
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+.card {
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+img {
+    border-radius: 5px 5px 0 0;
+}
+    .container1 {
+        margin: auto;
+        width: 979px;
+        height: 263px;
+        border: 1px #000 solid;
+    }
+.left {
+
+    border:1px #000 solid;
+    height:334px;
+    width:500px;
+    text-align: left;
+    font-size: small;
+    line-height: 0px;
+}
+#uncf {
+    height: 165px;
+    width: 220px;
+
+}
+#Bre {
+    height: 200px;
+    width: 216px;
+}
+#twit {
+    height: 200px;
+    width: 220px;
+    margin-top: -450px;
+}
+#PawBre {
+    height: 200px;
+    width: 200px;
+    float: right;
+    margin-top: -120px;
+}
+#vid {
+    float: right;
+    margin-top: -185px;
+}
+.contact {
+    margin-top:5px;
+    margin-right: 40px;
+}
+.leftright2 {
+    line-height: 0px;
+    float: right;
+    margin-right: 10px;
+    margin-top: -90px;
+}
+.leftright {
+    text-align: right;
+    float: right;
+}
+.right {
+
+    border:1px #000 solid;
+    height:334px;
+    width:481px;
+    line-height: 0px;
+    font-size: small;
+    margin-top: -450px;
+    float: right;
+
+}
+.rightright {
+    text-align: right;
+    float: right;
+    line-height: 0px;
+    margin-top: -280px;
+    margin-right: 20px;
+}
+h2 {
+    font-size: 13px;
+}
+div {
+    display: block;
+}
+
